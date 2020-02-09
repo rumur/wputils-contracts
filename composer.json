@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rumur\\WPUtils\\Contracts": ""
+            "Rumur\\WPUtils\\Contracts\\": ""
         }
     },
     "require-dev": {
