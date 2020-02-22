@@ -2,6 +2,7 @@
 
 namespace Rumur\WPUtils\Contracts\Repository;
 
+use Rumur\WPUtils\Repository\Exception\PostNotFound;
 use Rumur\WPUtils\Support\Collection;
 
 interface IPostRepository extends IQueryBuilder
@@ -10,6 +11,7 @@ interface IPostRepository extends IQueryBuilder
      * Finds a specific resource.
      *
      * @param int $post_id
+     * @throws PostNotFound
      *
      * @return mixed
      */
